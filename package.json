@@ -1,6 +1,6 @@
 {
-  "name": "@spencer/connect-chat-interface",
-  "version": "1.0.0",
+  "name": "spencer-test-connect-chat-interface",
+  "version": "1.0.1",
   "homepage": "chat",
   "main": "build/dist/static/js/amazon-connect-chat-interface.js",
   "engines": {
