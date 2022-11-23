@@ -1,7 +1,29 @@
 {
-  "name": "@amzn/connect-chat-interface",
+  "name": "@spencer/connect-chat-interface",
   "version": "1.0.0",
   "homepage": "chat",
+  "main": "build/dist/static/js/amazon-connect-chat-interface.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "directories": {
+    "lib": "./build/dist"
+  },
+  "files": [
+    "/build/dist/"
+  ],
+  "description": "A light interface to create a customer widget for getting started with Amazon Connect chat.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazon-connect/amazon-connect-chat-interface.git"
+  },
+  "keywords": [
+    "amazon",
+    "connect",
+    "chat-interface"
+  ],
+  "author": "Amazon Web Services",
+  "license": "MIT",
   "dependencies": {
     "@babel/runtime": "7.9.2",
     "@emotion/core": "^10.0.35",
